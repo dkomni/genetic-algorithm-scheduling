@@ -15,13 +15,13 @@ The Genetic Algorithm uses natural selection principles to iteratively improve t
 ## Note
 Achieving lower penalties in genetic algorithms can be approached through several strategies. This is just a basic implementation that uses specific methods regarding selection, crossover and mutation processes. To improve the performance of the genetic algorithm and potentially achieve lower penalties, one should:
 
-**1. Tune Genetic Algorithm Parameters: These involve **crossover probability**, **mutation probability**, **population size** and **number of iterations****.
-**2. Selection Methods: This implementation uses **Rank-Based Selection**. Others include **Tournament Selection** or **Roulette Wheel Selection****.
-**3. Crossover Operators: Here, we used **Uniform Crossover**. There is also an implementation of **Two-Point Crossover****.
-**4. Mutation Operators: **Random Mutation** is used and an implementation of **Cyclic Shift Mutation** can be found in the code**.
-**5. Elitism: Preserve a certain number of the best individuals from one generation to the next to ensure that the best solutions are not lost (not implemented)**.
-**6. Adaptive Parameters: Adjust crossover and mutation probabilities dynamically based on the progress of the algorithm**.
-**7. Hybrid Approaches: Combine genetic algorithms with other optimization techniques, such as local search, to refine solutions**.
+**1. Tune Genetic Algorithm Parameters**: These involve *crossover probability*, *mutation probability*, *population size* and *number of iterations*.
+**2. Selection Methods**: This implementation uses *Rank-Based Selection*. Others include *Tournament Selection* or *Roulette Wheel Selection*.
+**3. Crossover Operators**: Here, we used *Uniform Crossover*. There is also an implementation of *Two-Point Crossover*.
+**4. Mutation Operators**: *Random Mutation* is used and an implementation of *Cyclic Shift Mutation* can be found in the code.
+**5. Elitism**: Preserve a certain number of the best individuals from one generation to the next to ensure that the best solutions are not lost (not implemented).
+**6. Adaptive Parameters**: Adjust crossover and mutation probabilities dynamically based on the progress of the algorithm.
+**7. Hybrid Approaches**: Combine genetic algorithms with other optimization techniques, such as local search, to refine solutions.
 
 ---
 
